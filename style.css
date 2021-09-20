@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Work Sans', sans-serif;
+
+}
+header{
+    background-color: #155592;
+    width: 100%;
+    height: 6em;
+    
+
+}
+.fab{
+    margin-left: 1em;
+   
+    margin-top: 1em;
+    color: #e7f5ff;
+
+}
+.headers{
+    display: flex;
+    color: #e7f5ff;
+    
+}
+.header-font-awesome{
+    padding-left: 1em;
+    font-size:  2rem;
+    margin-top: 1em;
+    
+}
+
+::placeholder{
+    color: #b2c6d49a;
+}
+.inputclass{
+   outline: none;
+   border: 0;
+  
+   margin-top: 1em;
+   margin-left: 25px;
+   background-color: transparent;
+  
+   
+}
+.searchBar{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 60px;
+    
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 2em;
+    width: 15em;
+}
+
+.fas{
+    margin-left: 10px;
+}
+.headerbartext{
+    display: flex;
+    margin-top: 40px;
+}
+.headertags{
+    margin-left: 2em;
+    color: #aec4d4;
+}
+.fa-user-circle{
+
+    margin-left: 8em;
+    color: #aec4d4;
+}
+.fa-html5{
+
+    margin: 0%;
+    margin-left: 32px;
+    color: aquamarine;
+    margin-top: 25px;
+}
+.divpera{
+    
+    font-size: 3rem;
+}
+.divmain{
+    display: flex;
+    
+}
+.subdiv{
+    margin-top: 20px;
+    margin-left: 20px
+}
+.subdiv-partA{
+    display: flex;
+    
+    
+}
+.subdiv-partB{
+display: flex;
+margin-left: 19em;
+color: rgb(87, 87, 228);
+margin-top: 25px;
+
+}
+.fount-colour{
+    color: rgb(87, 87, 228);
+}
+.border-all{
+    padding-left: 3em;
+}
+.text-center{
+    
+    margin: auto;
+  width: 70%;
+  
+  padding: 10px;
+ 
+
+}
+.create-and-use-kit{
+    background-color: #1971c2;
+    height: 45em;
+}
+.h1-start{
+    color: #e7f5ff;
+    font-size: 47px;
+    margin: auto;
+    text-align :center;
+    padding-top: 1em;
+    
+}
+.p-start{
+    color: #aec4d4;
+    font-size: 27px;
+    margin:  auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.create-kit-div{
+    margin: auto;
+    width: 91%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 205px;
+    margin-top: 2em;
+}
+.input-data{
+    width: 60em;
+    height: 40px;
+   margin-left: 1.5em;
+   
+    border: 2px solid #bfbfc0a6;
+  padding: 10px;
+  border-radius: 6px;
+    
+}
+.p-tag-inputdata-heading{
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: .5em;
+}
+.create-botton{
+    background-color:#228be6;
+    color: #ffffff;
+    height: 58px;
+    border-radius: 5px ;
+    margin-left: 25px;
+    border:none;
+    border-bottom: 4px solid #355886c0;
+    width: 230px;
+    font-size: 16px;
+}
+.create-kit-bottum{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 66px;
+    background-color: #dedede2b;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 20px;
+    margin-left: 0px
+
+}
+.creat-kit-bottam-first-titile h4,h5 {
+    color: #228be6;
+}
+.creat-kit-bottam-first-titile{
+    margin-right: 400px;
+    align-items: center;
+    display: flex;
+
+    
+}
+.creat-kit-bottam-titile{
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+.creat-kit-bottam-titile i{
+    margin-top: 0;
+    font-size: 30px;
+
+}
+.create-kit-top{
+    padding-top: 5px;
+    padding-left: 12px;
+}
+.create-kit-about{
+    color: aliceblue;
+    display: flex;
+    margin-top: 65px;
+    justify-content: space-evenly;
+}
+.kit-crards{
+   display: flex;
+   width: 350px;
+   height: 100px;
+   object-fit: cover;
+  
+}
+.content-tag p {
+    color: #aec4d4;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+.content-tag h2{
+    font-size: 19.5px;
+    font-weight: 600;
+}
+.icon-in-kit{
+   
+    padding-right: 25px;
+    font-size: 30px;
+}
+.fa-envira{
+    margin: 0;
+}
+.header-titile hr{
+    border: 2px solid #aa9f9f31;
+    position: absolute;
+    z-index: -1;
+    width: 91%;
+    margin-top: 10px;
+}
+.main-cards-body{
+    width: 91%;
+    margin: auto;
+}
+.h2-heading{
+    
+    background: white;
+    position: absolute;
+    z-index: 2;
+    width: 26%;
+    padding-left: 30px;
+    left: 37%;
+    color: #495057;
+    font-size: 22px;
+    
+}
+.header-titile{
+    margin-top: 90px;
+    height: 50px;
+}
+.big-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    
+    
+    
+
+}
+.download{
+    text-align: center;
+    background-color:  #fff;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 10px;
+}
+.download i{
+    font-size: 35px;
+    color: #20c997;
+    padding: 15px;
+
+}
+.download h4{
+    padding: 9px;
+    font-size: 17px
+
+}
+.cards-section{
+    background-color: #ffffff;
+}
+.short-cards{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 5px;
+}
+.baby-shorto-card{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    height: 120px;
+    align-items: center;
+    padding-top: 30px;
+}
+.baby-shorto-card i{
+    margin: 0;
+    font-size: 50px;
+
+}
+.baby-shorto-card p{
+    font-size: 20px;
+
+}
+.baby-shorto-card:hover{
+    border-bottom: 2px solid #49505741;
+    text-decoration: none;
+    display: block;
+   
+}
+
+.big-cards :hover h4{
+    color: #228be6;
+}
+.baby-shorto-card p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cardbottam-text{
+    width: 100%;
+    text-align: center;
+    direction: none;
+    height: 180px;
+    padding-top: 26px;
+    line-height: 1.6;
+}
+.cardbottam-text a{
+    text-decoration: none;
+    color: #228be6;
+    border-bottom: 1px solid #49505742;
+}
+.main-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color:#343a40;
+    padding-top: 40px;
+}
+.unoureder-list ul{
+
+    list-style-type: none;
+    color: #adb5bd;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.unoureder-list p{
+    color: #868e96;
+    font-weight: 800;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.bottam-footer{
+    color: #adb5bd ;
+    background-color: #212529;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+.bottam-div{
+    display: flex;
+    align-items: center;
+
+}
+
